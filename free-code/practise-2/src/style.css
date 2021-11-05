@@ -1,0 +1,12 @@
+.navbar {
+  height: 100px;
+  background-color: green;
+  color: honeydew;
+  margin-bottom: 10px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
