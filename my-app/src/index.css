@@ -1,50 +1,26 @@
-body {
-  font: 14px "Century Gothic", Futura, sans-serif;
-  margin: 20px;
-}
-
-ol, ul {
-  padding-left: 30px;
-}
-
-.board-row:after {
-  clear: both;
-  content: "";
-  display: table;
-}
-
-.status {
-  margin-bottom: 10px;
-}
-
-.square {
-  background: #fff;
-  border: 1px solid #999;
-  float: left;
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 34px;
-  height: 34px;
-  margin-right: -1px;
-  margin-top: -1px;
-  padding: 0;
+.headerSW {
   text-align: center;
-  width: 34px;
+  background-image: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__480.jpg");
+  color: whitesmoke;
+  font-weight: bold;
 }
 
-.square:focus {
-  outline: none;
+table {
+  width: 100%;
+}
+table,
+th,
+td {
+  border: 1px solid black;
 }
 
-.kbd-navigation .square:focus {
-  background: #ddd;
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-.game {
-  display: flex;
-  flex-direction: row;
-}
-
-.game-info {
-  margin-left: 20px;
+.navbar li {
+  display: inline;
+  padding: 8px;
 }
